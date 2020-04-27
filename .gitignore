@@ -1,9 +1,37 @@
-# For projects that use the Waf build system: https://waf.io/
-# Dot-hidden on Unix-like systems
-.waf-*-*/
-.waf3-*-*/
-# Hidden directory on Windows (no dot)
-waf-*-*/
-waf3-*-*/
-# Lockfile
-.lock-waf_*_build
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
